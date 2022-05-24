@@ -4,6 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Portfolio, arte, ceramica argentina, manualidades, monica frette"
+    />
+    <meta
+      name="description"
+      content="Portofolio personal, ceramicas y manualidades"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Farsan&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Monica Frette</title>
   </head>
@@ -13,89 +34,107 @@
         <h1 class="brand">Monica Frette</h1>
         <nav class="nav">
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#whoami">Quien Soy</a></li>
-            <li><a href="#products">Productos</a></li>
-            <li><a href="#instagram">Contacto</a></li>
+            <li class="item"><a href="#">Inicio</a></li>
+            <li class="item"><a href="#whoami">Quien Soy</a></li>
+            <li class="item"><a href="#products">Productos</a></li>
+            <li class="item"><a href="#instagram">Contacto</a></li>
           </ul>
         </nav>
       </div>
 
       <div class="container_header">
-        <h2>Lore Impsum</h2>
-        <p>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim.
-        </p>
-
-        <button class="btn-products">
-          <img src="./img/flecha-hacia-abajo.png" alt="" /> Ver Productos
-        </button>
+        <h1>Artista y Ceramista</h1>
+        <p>"Sueño con pintar y luego pinto mis sueños"</p>
       </div>
     </header>
 
-    <div class="banner">
-      <h2>Excepteur occaeuiecat cupidatat.</h2>
-
-      <div class="text_banner">
+    <section class="info">
+      <div class="text-info">
+        <a id="whoami"></a>
+        <h3>¿Quien soy?</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam rerum
-          voluptates harum eaque commodi debitis, minima sed. Fugiat obcaecati
-          nulla voluptas. Nemo doloribus ut provident veniam magni vero amet
-          enim.
+          ¡Hola, soy Moni! Nací en Corrientes Capital. Artista, artesana,
+          ceramista, buscadora, sensible, creyente del proceso creador y su
+          magia meditativa. Apasionada de la sociología y la pedagogía Waldorf.
+        </p>
+        <br />
+        <p>
+          Desde los 6 años asistí a talleres artisticos y desde entonces me
+          acompañaron grandes artistas y referentes.
+        </p>
+        <br />
+        <p>
+          Me encanta jugar en la pintura con la imaginación y desde hace 5 años
+          vengo explorando el mundo de la arcilla. Cada pieza es única, sin
+          moldes, pintadas a mano, con diseños creados, nunca repetidos, 100%
+          artesanal y sustentable.
+        </p>
+        <br />
+        <p>
+          La producción respeta sus procesos y sus tiempos propios de la
+          ceramica, asi podemos ver y aprender que el producto tiene su impronta
+          y alma propia.
+        </p>
+        <br />
+        <p>
+          El fuego que todo lo transmuta genera en las piezas y en cada uno de
+          nosotros ese encanto místico único.
         </p>
       </div>
-    </div>
-    <div class="container_whoami" id="whoami">
-      <div class="whoami">
-        <h2>¿QUIEN SOY?</h2>
-        <p>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est eopksio laborum. Sed ut
-          perspiciatis unde Excepteur sint occaecat cupidatat non proident, sunt
-          in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed
-          ut perspiciatis unde Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est eopksio laborum.
-          Sed ut perspiciatis unde
-        </p>
+      <div class="img-me">
+        <img src="./img/monica2.webp" alt="img" />
       </div>
-      <div class="whoami_img">
-        <img src="./img/whoami.png" alt="" />
-      </div>
+    </section>
+    <div class="flex">
+      <div class="efect"></div>
     </div>
-    <div class="container_products" id="products">
-      <h2>Productos</h2>
-      <div class="carrousell_products">
-        <div class="product">
-          <img src="./img/producto1.png" alt="" />
-        </div>
-        <div class="product">
-          <img src="./img/producto2.png" alt="" />
-        </div>
-        <div class="product">
-          <img src="./img/producto3.png" alt="" />
-        </div>
-        <div class="product">
-          <img src="./img/producto4.png" alt="" />
-        </div>
-      </div>
-    </div>
-    <div class="container_instagram" id="instagram">
-      <img class="instagram_icon" src="img\instagram.svg" alt="instagram" />
+    <a id="products"></a>
+    <h3 class="subtitle">Mis Productos</h3>
 
-      <h2>Seguime en Instagram</h2>
-      <div class="images_container">
-        <div class="instagram_img">
-          <img src="./img/instagram.png" alt="" />
-        </div>
-        <div class="instagram_img">
-          <img src="./img/instagram.png" alt="" />
-        </div>
+    <div class="row galery">
+      <div class="col-xl-4 col-md-4 col-sm-4 col-xs-4 producto">
+        <img src="./img/m-1.webp" alt="" />
+      </div>
+      <div class="col-xl-8 col-md-8 col-sm-8 col-xs-8 producto">
+        <img src="./img/m-3.webp" alt="" />
       </div>
     </div>
+    <div class="row galery">
+      <div class="col-xl-8 col-md-8 col-sm-8 col-xs-8 producto">
+        <img src="./img/m-4.jpg" alt="" />
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-4 col-xs-4 producto">
+        <img src="./img/m-2.webp" alt="" />
+      </div>
+    </div>
+    <div class="row galery">
+      <div class="col-xl-6 col-md-6 col-sm-6 col-xs-6 producto">
+        <img src="./img/m-6.jpg" alt="" />
+      </div>
+      <div class="col-xl-6 col-md-6 col-sm-6 col-xs-6 producto">
+        <img src="./img/m-5.jpg" alt="" />
+      </div>
+    </div>
+
+    <a id="instagram"></a>
     <footer>
       <span>MONICA FRETTE</span>
+      <a
+        href="https://instagram.com/monica.frette.10?igshid=NWRhNmQxMjQ="
+        target="_blank"
+      >
+        <div class="ig">
+          <img src="img/instagram.png" alt="" />
+          <p>Seguime en Instagram</p>
+        </div></a
+      >
       <span>Telefono: 3794751254</span>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
